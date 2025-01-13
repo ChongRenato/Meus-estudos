@@ -1,19 +1,20 @@
 class ContaBancaria:
     def __init__(self, titular, saldo=0.0):
         self.titular = titular
-        self.saldo = saldo
+        self.__saldo = saldo
 
     def depositar(self, valor):
-        self.saldo += valor
+        if valor > 0:
+            self.__saldo += valor
 
     def sacar(self, valor):
-        if self.saldo >= valor:
-            self.saldo -= valor
+        if self.__saldo >= valor:
+            self.__saldo -= valor
         else:
             print('Saldo insuficiente.')
 
     def exibir_saldo(self):
-        print(f'Saldo atual de {self.titular}: R${self.saldo:.2f}')
+        print(f'Saldo atual de {self.titular}: R${self.__saldo:.2f}')
 
 
 # Criando duas instâncias da classe ContaBancaria

@@ -141,10 +141,10 @@ Lembre-se de praticar os comandos em um ambiente real, utilizando o terminal ou 
    - Instalar o Git.  
    - Configurar nome e e-mail.  
    - Inicializar um repositório (`git init`).  
-   - Adicionar arquivos (`git add`).  
-   - Realizar commits (`git commit`).  
+   - Adicionar arquivos (`git add .`).  
+   - Realizar commits (`git commit -m "Sua mensagem"`).  
    - Conectar a um repositório remoto (`git remote add`).  
-   - Enviar mudanças (`git push`).  
+   - Enviar mudanças (`git push -u origin main`).  
 
 2. **Por que seguir um fluxo organizado?**  
    - Para evitar conflitos, manter o histórico claro e facilitar o trabalho em equipe.

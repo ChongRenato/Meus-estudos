@@ -123,7 +123,7 @@ Nesta aula, focaremos na **Abstração** e no **Encapsulamento**.
 
 A abstração consiste em simplificar e ocultar detalhes desnecessários, expondo apenas o essencial.
 
-![Representações de Cachorros](/aula03/dogs.png)
+![Representações de Cachorros](/Aula 03 - Abstração e Encapsulamento/conteudo/dogs.png)
 
 Ela permite representar elementos do mundo físico em termos de suas características e comportamentos relevantes.
 
